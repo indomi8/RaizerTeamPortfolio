@@ -35,6 +35,7 @@
 4. Use the user's configured `sans` font-family by default.
 */
 html {
+  overflow-x: hidden;
   line-height: 1.5; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
@@ -47,6 +48,8 @@ html {
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 body {
+  overflow-x: hidden;
+
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
 }
@@ -2862,6 +2865,13 @@ video {
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
+/* anna css */
+.text-title{
+  --tw-text-opacity: 1 !important;
+  /* color: rgb(22 28 45 / var(--tw-text-opacity)) !important; */
+  color: rgba(34, 34, 34, 0.74);
+}
+/* anna css */
 .text-black{
   --tw-text-opacity: 1 !important;
   color: rgb(22 28 45 / var(--tw-text-opacity)) !important;
