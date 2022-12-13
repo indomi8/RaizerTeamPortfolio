@@ -471,6 +471,24 @@ video {
   padding-right: 12px;
   padding-left: 12px;
 }
+
+
+
+
+/* Anna's added css */
+.block{
+  display: inline-block;
+  text-align: center ;
+  margin-left: 23px;
+}
+.bg-gradient-orange{
+  background-image: linear-gradient(to top, rgba(255, 181, 45, 0.5),rgba(255, 166, 0, 0));
+
+}
+/* Anna's added css */
+
+
+
 @media (min-width: 540px){
   .container{
     max-width: 540px;
@@ -1788,7 +1806,7 @@ video {
 }
 .border-indigo-600{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(79 70 229 / var(--tw-border-opacity)) !important;
+  border-color: rgb(34 34 34 / var(--tw-border-opacity)) !important;
 }
 .border-gray-100{
   --tw-border-opacity: 1 !important;
@@ -1850,7 +1868,7 @@ video {
 }
 .bg-indigo-600{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(79 70 229 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
 }
 .bg-slate-50{
   --tw-bg-opacity: 1 !important;
@@ -1991,7 +2009,7 @@ video {
 }
 .bg-dark-footer{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(25 33 50 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
 }
 .bg-gray-800{
   --tw-bg-opacity: 1 !important;
@@ -4368,7 +4386,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   position: absolute;
   bottom: -150px;
   display: block;
-  background-color: rgb(79 70 229 / 0.3);
+  background-color: rgb(255 139 38 / 0.3);
   -webkit-animation: animate 25s linear infinite;
           animation: animate 25s linear infinite;
 }
@@ -5534,7 +5552,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 .before\:bg-indigo-600::before{
   content: var(--tw-content) !important;
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(79 70 229 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(255 139 38 / var(--tw-bg-opacity)) !important;
 }
 
 .before\:bg-white::before{
@@ -5993,7 +6011,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 
 .hover\:border-indigo-700:hover{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(67 56 202 / var(--tw-border-opacity)) !important;
+  border-color: rgb(255 139 38 / var(--tw-border-opacity)) !important;
 }
 
 .hover\:border-indigo-600:hover{
@@ -6043,7 +6061,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 
 .hover\:bg-indigo-700:hover{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(67 56 202 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(255 139 38 / var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-indigo-600:hover{
