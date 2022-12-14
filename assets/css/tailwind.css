@@ -50,7 +50,7 @@ html {
 */
 body {
   overflow-x: hidden;
-  min-height: 100vh;
+  
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
 }
@@ -489,6 +489,7 @@ video {
   background-image: linear-gradient(to top, rgba(255, 181, 45, 0.2),rgba(255, 166, 0, 0));
 
 }
+
 /* Anna's added css */
 
 
@@ -1810,7 +1811,7 @@ video {
 }
 .border-indigo-600{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(34 34 34 / var(--tw-border-opacity)) !important;
+  border-color: rgb(255 181 45 / var(--tw-border-opacity)) !important;
 }
 .border-gray-100{
   --tw-border-opacity: 1 !important;
@@ -1864,7 +1865,7 @@ video {
 }
 .border-slate-800{
   --tw-border-opacity: 1 !important;
-  border-color: rgb(30 41 59 / var(--tw-border-opacity)) !important;
+  border-color: rgb(255 255 255/ var(--tw-border-opacity)) !important;
 }
 .bg-white{
   --tw-bg-opacity: 1 !important;
@@ -1872,7 +1873,10 @@ video {
 }
 .bg-indigo-600{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(255 181 45 / var(--tw-bg-opacity)) !important;
+}
+.dark .bg-orange{
+  background-color: rgb(255, 181, 45);
 }
 .bg-slate-50{
   --tw-bg-opacity: 1 !important;
@@ -1904,20 +1908,20 @@ video {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
 }
 .bg-slate-900\/50{
-  background-color: rgb(15 23 42 / 0.5) !important;
+  background-color: rgb(34 34 34 / 0.5) !important;
 }
 .bg-indigo-600\/10{
-  background-color: rgb(79 70 229 / 0.1) !important;
+  background-color: rgb(34 34 34 / 0.1) !important;
 }
 .bg-dark{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(60 72 88 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
 }
 .bg-slate-900\/40{
-  background-color: rgb(15 23 42 / 0.4) !important;
+  background-color: rgb(34 34 34 / 0.4) !important;
 }
 .bg-slate-900\/70{
-  background-color: rgb(15 23 42 / 0.7) !important;
+  background-color: rgb(34 34 34 / 0.7) !important;
 }
 .bg-indigo-600\/20{
   background-color: rgb(79 70 229 / 0.2) !important;
@@ -1930,7 +1934,7 @@ video {
   background-color: rgb(255 255 255 / 0.3) !important;
 }
 .bg-slate-900\/30{
-  background-color: rgb(15 23 42 / 0.3) !important;
+  background-color: rgb(34 34 34 / 0.3) !important;
 }
 .bg-emerald-600\/5{
   background-color: rgb(5 150 105 / 0.05) !important;
@@ -1957,7 +1961,7 @@ video {
   background-color: rgb(79 70 229 / 0.9) !important;
 }
 .bg-slate-900\/60{
-  background-color: rgb(15 23 42 / 0.6) !important;
+  background-color: rgb(34 34 34 / 0.6) !important;
 }
 .bg-red-600{
   --tw-bg-opacity: 1 !important;
@@ -2002,7 +2006,7 @@ video {
 }
 .bg-slate-900{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
 }
 .bg-gray-900{
   --tw-bg-opacity: 1 !important;
@@ -3292,7 +3296,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 .breadcrumb.breadcrumb-light .breadcrumb-item::after{
   content: var(--tw-content);
-  color: rgb(255 255 255 / 0.5);
+  color: rgb(255, 255, 255);
 }
 
 /*********************************/
@@ -3350,6 +3354,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 .dark #topnav .has-submenu.active .submenu li.active > a{
   --tw-text-opacity: 1 !important;
   color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
+  
 }
 #topnav .has-submenu.active.active .menu-arrow{
   --tw-border-opacity: 1;
@@ -3565,7 +3570,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 .dark #topnav .navigation-menu > li:hover > a, .dark  #topnav .navigation-menu > li.active > a{
   --tw-text-opacity: 1 !important;
-  color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
+  color: rgb(34 34 34 / var(--tw-text-opacity)) !important;
 }
 #topnav .navigation-menu > li .submenu.megamenu li .megamenu-head{
   white-space: nowrap !important;
@@ -3670,8 +3675,8 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 .dark #topnav.nav-sticky{
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-  --tw-shadow-color: #1f2937;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+  --tw-shadow-color: rgb(34 34 34);
   --tw-shadow: var(--tw-shadow-colored);
 }
 #topnav.nav-sticky .navigation-menu.nav-light > li > a{
@@ -3956,8 +3961,8 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   }
   .dark #topnav{
     --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-    --tw-shadow-color: #1f2937;
+    background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+    --tw-shadow-color:rgb(34 34 34);
     --tw-shadow: var(--tw-shadow-colored);
   }
   #topnav .logo .l-dark{
@@ -6448,7 +6453,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 
 .dark .dark\:bg-slate-900{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
 }
 
 .dark .dark\:bg-slate-800{
@@ -6557,7 +6562,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 
 .dark .dark\:text-slate-900{
   --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+  color: rgb(34 34 34 / var(--tw-text-opacity)) !important;
 }
 
 .dark .dark\:text-gray-400{
@@ -6620,7 +6625,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 }
 
 .dark .dark\:shadow-gray-800{
-  --tw-shadow-color: #1f2937 !important;
+  --tw-shadow-color: rgba(152, 152, 152, 0.259) !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 
@@ -7699,14 +7704,14 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   }
   .dark .lg\:dark\:bg-slate-900{
     --tw-bg-opacity: 1 !important;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+    background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
   }
   .dark .lg\:dark\:text-white{
     --tw-text-opacity: 1 !important;
     color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
   }
   .dark .lg\:dark\:shadow-gray-800{
-    --tw-shadow-color: #1f2937 !important;
+    --tw-shadow-color:rgb(34 34 34) !important;
     --tw-shadow: var(--tw-shadow-colored) !important;
   }
 }
