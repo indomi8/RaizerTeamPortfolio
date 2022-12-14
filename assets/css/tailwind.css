@@ -36,6 +36,7 @@
 */
 html {
   overflow-x: hidden;
+
   line-height: 1.5; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
@@ -49,7 +50,7 @@ html {
 */
 body {
   overflow-x: hidden;
-
+  min-height: 100vh;
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
 }
@@ -485,7 +486,7 @@ video {
   margin-left: 23px;
 }
 .bg-gradient-orange{
-  background-image: linear-gradient(to top, rgba(255, 181, 45, 0.5),rgba(255, 166, 0, 0));
+  background-image: linear-gradient(to top, rgba(255, 181, 45, 0.2),rgba(255, 166, 0, 0));
 
 }
 /* Anna's added css */
@@ -2894,6 +2895,13 @@ video {
   --tw-text-opacity: 1 !important;
   color: rgb(79 70 229 / var(--tw-text-opacity)) !important;
 }
+/* anna css */
+.text-indigo-about{
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 139 38 / var(--tw-text-opacity)) !important;
+}
+/* anna css */
+
 .text-emerald-600{
   --tw-text-opacity: 1 !important;
   color: rgb(5 150 105 / var(--tw-text-opacity)) !important;
