@@ -490,7 +490,10 @@ video {
 
 }
 
-/* Anna's added css */
+.dark .dark\:bg-lighter-grad{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(60 60 60 / var(--tw-bg-opacity)) !important;
+}/* Anna's added css */
 
 
 
@@ -517,6 +520,7 @@ video {
     padding-right: 45px;
     padding-left: 45px;
   }
+  
 }
 @media (min-width: 1280px){
   .container{
@@ -3950,6 +3954,7 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   }
 }
 @media (max-width: 991px) {
+  
   #topnav{
     min-height: 74px;
     --tw-bg-opacity: 1;
