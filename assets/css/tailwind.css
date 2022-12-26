@@ -493,7 +493,18 @@ video {
 .dark .dark\:bg-lighter-grad{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(60 60 60 / var(--tw-bg-opacity)) !important;
-}/* Anna's added css */
+}
+.tup-1{
+  margin-top: -1rem;
+}
+.heightvw{
+  height: 96vh;
+  overflow: hidden;
+}
+.left13{
+  left: -13px;
+}
+/* Anna's added css */
 
 
 
