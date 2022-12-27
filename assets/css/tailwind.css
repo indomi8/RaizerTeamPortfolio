@@ -474,7 +474,7 @@ video {
   margin-left: auto;
   padding-right: 12px;
   padding-left: 12px;
-}
+}4
 
 
 
@@ -490,9 +490,9 @@ video {
 
 }
 
-.dark .dark\:bg-lighter-grad{
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(60 60 60 / var(--tw-bg-opacity)) !important;
+.dark .dark\:bg-dark-trnsp{
+  --tw-bg-opacity: .4 !important;
+  background-color: rgb(34 34 34/ var(--tw-bg-opacity)) !important;
 }
 .tup-1{
   margin-top: -1rem;
@@ -504,6 +504,10 @@ video {
 .left13{
   left: -13px;
 }
+.mt5rem{
+  margin-top: 0;
+}
+
 /* Anna's added css */
 
 
@@ -531,6 +535,7 @@ video {
     padding-right: 45px;
     padding-left: 45px;
   }
+ 
   
 }
 @media (min-width: 1280px){
@@ -3760,6 +3765,29 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
   letter-spacing: 1px;
 }
 
+
+
+/* anna */
+@media (max-width:1000px){
+  .mt5rem{
+    margin-top: 15rem !important;
+  }
+  
+}
+@media(max-width:1024px){
+  .rounded-md{
+    background-color: rgba(255,255,255,.8);
+  }
+  
+.dark .dark\:{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity)) !important;
+}
+}
+/* anna */
+
+
+
 @media (min-width: 1025px) {
   #topnav .navigation-menu > li .submenu.megamenu{
     width: 1120px !important;
@@ -3768,6 +3796,9 @@ h1,  h2,  h3,  h4,  h5,  h6,  .h1,  .h2,  .h3,  .h4,  .h5,  .h6{
 @media screen and (max-width: 1024px) and (min-width: 992px) {
   #topnav .navigation-menu > li .submenu.megamenu{
     width: 936px !important;
+  }
+  .mt5rem{
+    margin-top: 15rem !important;
   }
 }
 @media (min-width: 992px) {
